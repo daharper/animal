@@ -1,11 +1,9 @@
 package com.singtel;
 
-import com.singtel.behaviors.ISay;
-
 // As requested, avoid inheriting from chicken, used a proxy pattern
 // Any chicken like behavior can be proxied to the private instance
 
-public class Rooster extends Bird implements ISay {
+public class Rooster extends Bird {
     private final Chicken chicken;
 
     private Rooster(Chicken chicken) {

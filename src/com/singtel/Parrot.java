@@ -3,7 +3,7 @@ package com.singtel;
 import com.singtel.behaviors.IFly;
 import com.singtel.behaviors.ISay;
 
-public class Parrot extends Bird implements ISay, IFly {
+public class Parrot extends Bird implements IFly {
     private ISay parrotedSpeaker;
 
     public void setParrotedSpeaker(ISay parrotedSpeaker) {

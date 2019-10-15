@@ -18,4 +18,11 @@ class BirdTest extends TestBase {
         bird.walk();
         assertEquals("I am walking\r\n", outContent.toString());
     }
+
+    @org.junit.jupiter.api.Test
+    void say() {
+        Bird bird = new Bird();
+        bird.say();
+        assertEquals("I am vocalizing\r\n", outContent.toString());
+    }
 }
