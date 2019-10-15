@@ -1,9 +1,6 @@
 package com.singtel.tests;
 
-import com.singtel.Cat;
-import com.singtel.Dog;
-import com.singtel.Parrot;
-import com.singtel.Rooster;
+import com.singtel.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -18,8 +15,12 @@ class ParrotTest extends TestBase {
         parrot.say();
         parrot.setParrotedSpeaker(new Cat());
         parrot.say();
+        parrot.setParrotedSpeaker(new Duck());
+        parrot.say();
+        parrot.setParrotedSpeaker(new Phone());
+        parrot.say();
 
-        assertEquals("Cock-a-doodle-doo\r\nWoof, woof\r\nMeow\r\n", outContent.toString());
+        assertEquals("Cock-a-doodle-doo\r\nWoof, woof\r\nMeow\r\nQuack, quack\r\nring, ring\r\n", outContent.toString());
     }
 
     @org.junit.jupiter.api.Test

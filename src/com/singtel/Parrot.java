@@ -1,17 +1,17 @@
 package com.singtel;
 
 import com.singtel.behaviors.IFly;
-import com.singtel.behaviors.ISay;
+import com.singtel.behaviors.IMakeSound;
 
 public class Parrot extends Bird implements IFly {
-    private ISay parrotedSpeaker;
+    private IMakeSound parrotedNoise;
 
-    public void setParrotedSpeaker(ISay parrotedSpeaker) {
-        this.parrotedSpeaker = parrotedSpeaker;
+    public void setParrotedSpeaker(IMakeSound parrotedNoise) {
+        this.parrotedNoise = parrotedNoise;
     }
 
     @Override
     public void say() {
-        parrotedSpeaker.say();
+        parrotedNoise.makeSound();
     }
 }
