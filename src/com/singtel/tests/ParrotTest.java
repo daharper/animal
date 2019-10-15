@@ -10,15 +10,15 @@ class ParrotTest extends TestBase {
         Parrot parrot = new Parrot();
 
         parrot.setParrotedNoise(Rooster.create());
-        parrot.makeSound();
+        parrot.say();
         parrot.setParrotedNoise(new Dog());
-        parrot.makeSound();
+        parrot.say();
         parrot.setParrotedNoise(new Cat());
-        parrot.makeSound();
+        parrot.say();
         parrot.setParrotedNoise(new Duck());
-        parrot.makeSound();
+        parrot.say();
         parrot.setParrotedNoise(new Phone());
-        parrot.makeSound();
+        parrot.say();
 
         assertEquals("Cock-a-doodle-doo\r\nWoof, woof\r\nMeow\r\nQuack, quack\r\nring, ring\r\n", outContent.toString());
     }
