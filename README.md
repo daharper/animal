@@ -4,8 +4,8 @@ The general approach I took was to to minimize inheritance and leverage composit
 
 Overview of classes:
 
-![Class Diagram](https://github.com/daharper/animals/blob/master/class_diagram1.png)
+![Class Diagram](https://github.com/daharper/animal/blob/master/class_diagram1.png)
 
 Overview of classes and behaviors:
 
-![Class Diagram](https://github.com/daharper/animals/blob/master/class_diagram2.png)
+![Class Diagram](https://github.com/daharper/animal/blob/master/class_diagram2.png)
