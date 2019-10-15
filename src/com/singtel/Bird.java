@@ -1,6 +1,8 @@
 package com.singtel;
 
-class Bird extends Animal {
+import com.singtel.behaviors.ISing;
+
+public class Bird extends Animal implements ISing {
     void fly() {
         System.out.println("I am flying");
     }
