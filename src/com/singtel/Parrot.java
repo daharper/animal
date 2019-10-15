@@ -6,7 +6,7 @@ import com.singtel.behaviors.IMakeSound;
 public class Parrot extends Bird implements IFly {
     private IMakeSound parrotedNoise;
 
-    public void setParrotedSpeaker(IMakeSound parrotedNoise) {
+    public void setParrotedNoise(IMakeSound parrotedNoise) {
         this.parrotedNoise = parrotedNoise;
     }
 
