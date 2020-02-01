@@ -1,3 +1,5 @@
+Singtel test
+
 Please find attached the source code for the animal project.
 
 The general approach I took was to to minimize inheritance and leverage composition via granular interfaces. 
