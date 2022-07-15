@@ -1,4 +1,4 @@
-Singtel test
+Coding challeng for coding interview.
 
 Please find attached the source code for the animal project.
 
